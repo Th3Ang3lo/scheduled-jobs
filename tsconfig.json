@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "target": "es2020",
+    "rootDirs": ["src"],
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    }
+  },
+  "include": ["src"],
+  "exclude": []
+}

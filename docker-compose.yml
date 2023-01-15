@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  database:
+    image: mongo
+    container_name: mongodb_scheduler
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/mongo
+
+volumes:
+  mongodb:
+    driver: local
